@@ -131,10 +131,16 @@ td{
     display: block;
     background: white;
     position: absolute;
-    left: 149px;
+    left:  166px;
     top: 2px;
-    transform: translateX(-50%);
     border: 6px solid #403a9e;
+}
+
+@-moz-document url-prefix(){ 
+    .spm{
+        left:  137px;
+        top: 2px;
+    } 
 }
 
 .media-body{
