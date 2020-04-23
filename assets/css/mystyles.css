@@ -84,6 +84,11 @@ td{
     text-align: center;
 }
 
+.list > li{
+    text-decoration: none;
+    list-style: none;
+}
+
 /* Icons */
 .mail{
     color: darkorange;
@@ -102,15 +107,80 @@ td{
 }
 
 /* Esperiencia */
+.padre{
+    position: relative;
+    background: red;
+    top: 0px;
+    left: 50px;
+}
+
+.hijo{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
 .p_120 {
     padding-top: 10px;
+}
+
+.spm{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    display: block;
+    background: white;
+    position: absolute;
+    left: 149px;
+    top: 2px;
+    transform: translateX(-50%);
+    border: 6px solid #403a9e;
+}
+
+.media-body{
+    padding-left: 15px;
+    border-left: 6px solid #403a9e;
+}
+
+.tabs_inner .nav.nav-tabs li a.active {
+    background: #fff;
+    color: #222222;
+}
+
+.tabs_inner .nav.nav-tabs li a {
+    margin: 0px;
+    line-height: 50px;
+    border-radius: 5px;
+    padding: 0px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    border: 2px solid #403a9e;
+    background:#403a9e;
+}
+
+.list{
+    padding-left: 0px;
+}
+
+.list > li {
+    position: relative;
+}
+
+.d-flex > p{
+    padding-right: 15px;
+}
+
+.tab-content{
+    margin: 0 auto;
 }
 
 .tabs_inner .nav.nav-tabs {
     display: block;
     text-align: center;
-    border: none;
-    margin-bottom: 120px;
+    border: 0px none;
+    margin-bottom: 12px;
 }
 
 /* Media */
