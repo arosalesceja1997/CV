@@ -131,14 +131,18 @@ td{
     display: block;
     background: white;
     position: absolute;
-    left:  166px;
+    left:  28.5%;
     top: 2px;
     border: 6px solid #403a9e;
 }
 
+.media > .d-flex{
+    width: 30% !important;
+}
+
 @-moz-document url-prefix(){ 
     .spm{
-        left:  137px;
+        left:  28.9%;
         top: 2px;
     } 
 }
@@ -201,6 +205,19 @@ td{
         width: 100%;
     }
 
+    .spm{
+        left:  27.3% !important;
+        top: 2px;
+        border: 6px solid #403a9e;
+    }
+
+    @-moz-document url-prefix(){ 
+        .spm{
+            left:  27% !important;
+            top: 2px;
+        } 
+    }
+
     .perfil{
         padding: 0px;
     }
@@ -254,5 +271,26 @@ td{
 
     .null-padding{
         padding: 0px;
+    }
+}
+
+@media screen and (max-width: 1145px ) {
+    .spm{
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        display: block;
+        background: white;
+        position: absolute;
+        left:  28.3%;
+        top: 2px;
+        border: 6px solid #403a9e;
+    }
+    
+    @-moz-document url-prefix(){ 
+        .spm{
+            left:  28.5%;
+            top: 2px;
+        } 
     }
 }
