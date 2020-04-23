@@ -1,5 +1,13 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .my-cont{
     height: 100% !important;
+}
+
+.mt-30{
+    margin-top: 30px;
 }
 
 .circulo{
@@ -61,6 +69,48 @@ td{
     background-image: -webkit-linear-gradient(0deg, #403a9e 0%, #88f3ff 100%);
     background-image: -ms-linear-gradient(0deg, #403a9e 0%, #88f3ff 100%);
     margin-bottom: 200px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.tabs_inner .nav.nav-tabs li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.tabs_inner .nav.nav-tabs {
+    text-align: center;
+}
+
+/* Icons */
+.mail{
+    color: darkorange;
+}
+
+.face{
+    color: #4267b2;
+}
+
+.cel{
+    color: black;
+}
+
+.ubic{
+    color: #d6473b;
+}
+
+/* Esperiencia */
+.p_120 {
+    padding-top: 10px;
+}
+
+.tabs_inner .nav.nav-tabs {
+    display: block;
+    text-align: center;
+    border: none;
+    margin-bottom: 120px;
 }
 
 /* Media */
