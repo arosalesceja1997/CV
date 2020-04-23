@@ -151,13 +151,15 @@ td{
     margin: 0px;
     line-height: 50px;
     border-radius: 5px;
-    padding: 0px 40px;
+    padding: 0px 0px;
     font-size: 15px;
     font-weight: 500;
     color: #fff;
     font-family: "Roboto", sans-serif;
     border: 2px solid #403a9e;
     background:#403a9e;
+    width: 150px;
+    height: 50px;
 }
 
 .list{
@@ -216,6 +218,10 @@ td{
     .table td{
         padding-left: 0px !important;
         margin-left: 0px !important;
+    }
+
+    .tabs_inner .nav.nav-tabs li a {
+        margin-top: 15px;
     }
 }
 
