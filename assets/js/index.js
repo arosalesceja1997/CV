@@ -24,7 +24,7 @@ function agregarFila(){
     let x = "";
     for(let i = 0;  i < Hanilidades.length; i++) {
         x = "cam"+i;
-        document.getElementById("table-id").insertRow(-1).innerHTML = '<tr><td>'+ Hanilidades[i] +'</td>'
+        document.getElementById("table-id").insertRow(-1).innerHTML = '<tr><td class="pl-5 ml-5">'+ Hanilidades[i] +'</td>'
         +'<td id="cam'+i+'"><div class="ajustar"></div></td></tr>';
         let miVal = agregarValor(x, Valor[i]);
     }
