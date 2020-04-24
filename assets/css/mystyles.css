@@ -162,8 +162,13 @@ td{
 }
 
 .media-body{
+    width: 100%;
     padding-left: 15px;
     border-left: 6px solid #403a9e;
+}
+
+.text-justify{
+    width: 95%;
 }
 
 .tabs_inner .nav.nav-tabs li a.active {
