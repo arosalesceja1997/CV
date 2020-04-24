@@ -60,15 +60,17 @@ td{
     margin: 15px 0px;
     height: 650px;
     width: 100%;
+    border-radius: 5px;
 }
 
 .gradiante{
     position: relative;
     z-index: 1;
-    background-image: -moz-linear-gradient(0deg, #403a9e 0%, #88f3ff 100%);
-    background-image: -webkit-linear-gradient(0deg, #403a9e 0%, #88f3ff 100%);
-    background-image: -ms-linear-gradient(0deg, #403a9e 0%, #88f3ff 100%);
-    margin-bottom: 200px;
+    /* background-image: -moz-linear-gradient(2deg, #403a9e 0%, #88f3ff 100%);
+    background-image: -webkit-linear-gradient(2deg, #403a9e 0%, #88f3ff 100%);
+    background-image: -ms-linear-gradient(2deg, #403a9e 0%, #88f3ff 100%); */
+    background-color: #403a9e;
+    margin-bottom: 30px;
 }
 
 .nav-tabs {
@@ -104,6 +106,18 @@ td{
 
 .ubic{
     color: #d6473b;
+}
+
+/* Hovers */
+
+.circulo:hover{
+    background-color: #403a9e;
+    opacity: .5;
+}
+
+.circulo-vacio:hover{
+    background-color: gray;
+    opacity: .5; 
 }
 
 /* Esperiencia */
@@ -186,6 +200,7 @@ td{
 
 .tab-content{
     margin: 0 auto;
+    padding-top: 10px;
 }
 
 .tabs_inner .nav.nav-tabs {
@@ -257,6 +272,7 @@ td{
         margin: 15px 0px;
         height: 150px;
         width: 100%;
+        border-radius: 0 !important;
     }
     
     .ajustar{
